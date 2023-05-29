@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos de Caixas</title>
+    <style>
+        /* content > padding > border > outline > margin */
+        h1{
+            background-color: azure;
+
+            height: 36px;
+            width: 300px;
+
+            text-align: center;
+
+            padding: 10px;
+            border: 0.25em solid darkcyan;
+            outline: 1px solid rgb(255, 0, 0);
+            margin: 20px auto 40px;
+        }
+
+        a{
+            padding: 10px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!--box-level      preenche a próx linha   ex:div,h,p,main,header,nav,footer -->
+    <!--inline-level   dentro da linha         ex:span,a,sup/sub,em,label,button -->
+    <h1>Exemplo de box-level</h1>
+    <p>parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de inline-level</a> vamos ver como tudo isso funciona
+    </p>
+</body>
+</html>

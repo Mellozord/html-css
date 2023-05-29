@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+@font-face {
+    font-family: 'Conthrax';
+    src: url('../fontes/conthrax.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root{
+    --cor0: #38ff97;
+    --cor1: #FFFFFF;
+    --cor2: #38ff97;
+    --cor3: #020000;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: Poppins, Arial;
+    --fonte-android: 'Conthrax', Arial;
+}
+
+*{
+    margin: 0em;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    text-align: justify;
+}
+
+header{
+    background-color: var(--cor0);
+
+    text-align: center;
+
+    padding: 2em;
+}
+
+main{
+    background-color: var(--cor1);
+
+    min-width: 320px;
+    max-width: 800px;
+
+    padding: 1em 1em;
+    margin:  2em auto;
+    
+}
+
+main img{
+    width: 100%;
+    object-fit: cover;
+}
